@@ -625,6 +625,7 @@ template {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-bottom: 20px;
 }
 
 .hotel-info__offer {
@@ -688,5 +689,36 @@ template {
 .rating__text {
   font-size: 8px;
   line-height: 10px;
+}
+
+.slider {
+  width: 728px;
+  height: 300px;
+}
+
+.swiper-slide {
+  border-radius: 8px;
+}
+
+.swiper-button {
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.swiper-button-next {
+  background-image: url(../img/Arrow-next.svg);
+}
+
+.swiper-button-prew {
+  background-image: url(../img/Arrow-prev.svg);
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */
