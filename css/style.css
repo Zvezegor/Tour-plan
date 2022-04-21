@@ -510,6 +510,9 @@ template {
   .container {
     max-width: 960px;
   }
+  .slider {
+    width: 600px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -870,7 +873,8 @@ template {
 .map {
   width: 347px;
   height: 313px;
-  border-radius: 4px;
+  border-radius: 10px;
   background-color: #0A223D;
+  overflow: hidden;
 }
 /*# sourceMappingURL=style.css.map */
