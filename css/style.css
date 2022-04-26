@@ -754,7 +754,7 @@ template {
   background-image: url(../img/Arrow-next.svg);
 }
 
-.swiper-button-prew {
+.swiper-button-prev {
   background-image: url(../img/Arrow-prev.svg);
 }
 
@@ -894,10 +894,8 @@ template {
 .newsletter {
   position: relative;
   padding: 98px 0 87px 0;
-  background-image: url(../img/newsletter-bg.jpeg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  min-height: 200px;
+  background: transparent;
 }
 
 .newsletter::before {

@@ -1,4 +1,4 @@
-var swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.swiper', {
     // Optional parameters
     loop: true,
     // Navigation arrows
@@ -7,3 +7,4 @@ var swiper = new Swiper('.swiper', {
       prevEl: '.swiper-button-prev',
     },
   });
+$('.newsletter').parallax({imageSrc: '../img/newsletter-bg.jpeg'});
