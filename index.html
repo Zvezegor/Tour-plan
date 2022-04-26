@@ -116,7 +116,7 @@
         <div class="hotel-grid">
           <div class="slider">
             <!-- Slider main container -->
-            <div class="swiper">
+            <div class="swiper hotel-slider">
               <!-- Additional required wrapper -->
               <div class="swiper-wrapper">
                 <!-- Slides -->
@@ -179,6 +179,7 @@
     </section>
     <section class="newsletter">
       <div class="newsletter-wrapper">
+        <div class="parallax-window" data-parallax="scroll" data-image-src="../img/newsletter-bg.jpeg"></div>
         <h2 class="newsletter-title">subscribe to our
           <span class="newsletter-title__strong">NewsLetter</span>
         </h2>
@@ -190,6 +191,39 @@
           />
           <button class="subscribe__button">Send</button>
         </form>
+      </div>
+    </section>
+    <section class="rewiews">
+      <div class="container">
+        <h2 class="section-title">What people think about us</h2>
+        <div class="slider rewiews-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="rewiews-slider__item">
+                <div class="rewiews-slider__profile">
+                  <img
+                    src="/img/rewiews-avatar.jpeg" 
+                    alt="Megan Fox"
+                    class="rewiews-slider__avatar"
+                    />
+                  <h3 class="rewiews-slider__username">Megan Fox</h3>
+                  <span class="rewiews-slider__date">Stayed 18 Nov, 2019</span>
+                  <div class="rating">
+                    <img src="img/Star.svg" alt="star">
+                    <img src="img/Star.svg" alt="star">
+                    <img src="img/Star.svg" alt="star">
+                    <img src="img/Star.svg" alt="star">
+                    <img src="img/Star.svg" alt="star">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-scrollbar"></div>
+        </div>
       </div>
     </section>
     <script src="/js/swiper-bundle.min.js"></script>
